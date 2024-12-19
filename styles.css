@@ -1,0 +1,43 @@
+body {
+    margin:0;
+}
+
+/*Mon header*/
+header {
+    background-color: lightcoral;
+    opacity: 0.8;
+    padding: 16px 16px 0px 16px;
+}
+.logo {
+    max-height: 70px;
+    object-fit: contain;
+    box-shadow: 10px 10px 10px color #FFB6C1;
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    gap:16px;
+}
+h3{
+    position:static;
+    color:rgb(247,249,249);
+    font-family: "space Mono",serif ;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: "space Mono",serif ;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(247, 249, 249);
+}
+nav ul li a:hover{
+    color:red;
+}
